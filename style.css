@@ -1,0 +1,99 @@
+.container {
+    height: 450px;
+    width: 320px;
+    /* border: 2px solid goldenrod; */
+    margin: 0 auto;
+    display: grid;
+    /* margin-left: 20%; */
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    grid-template-columns: 1fr;
+    align-items: center;       
+
+}
+
+
+
+#box1, #box2, #box3{
+    /* margin-top: 10px; */
+    margin: auto;
+    height: inherit;
+    width: inherit;
+    /* border: 2px solid aquamarine; */
+   
+}
+
+#box1 {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;    
+}
+#box2 {
+    background-color: hsl(184, 100%, 22%);
+    }
+#box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+/* images styling */
+.image, .title-heading, .car-info, .learn-more {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.image {
+    margin-top: 2rem;
+    /* margin-left: 3rem; */
+}
+
+.title-heading {
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* margin-left: 2rem; */
+    color: white;
+}
+
+.car-info {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 2rem;
+}
+
+.learn-more {
+ text-transform: capitalize;
+ /* margin-bottom: ; */
+ margin-top: 9% ; 
+ padding: 0.7rem;
+ padding-left: 1.5rem;
+ padding-right: 1.5rem;
+ border-radius: 30px;
+ border-color: grey;
+ color: rgb(219, 138, 45);
+ font-weight: bolder;
+ 
+}
+
+
+/* BIG SCREEN */
+@media screen and (min-width: 800px) {
+    .container{
+        height: 500px;
+        width: 300px;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 4rem;
+        margin-left: 14rem;        
+    }
+    #box1 {
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 2%;
+    }
+    #box3 {
+        border-top-right-radius: 2%;
+        border-bottom-left-radius: 0%;
+    }
+    .learn-more {
+        margin-top: 3rem;
+    }
+}
