@@ -1,11 +1,11 @@
-* {
+/* * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 0;
     margin: 0;
     border-spacing: 0;
     
-  }
+  } */
 
   body {
     width: 100%;
@@ -14,8 +14,7 @@
 
 .container {
     height: auto;
-    width: 320px;
-    border: 2px solid goldenrod;
+    width: 320px;    
     margin: 40px auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -94,7 +93,7 @@
 /* BIG SCREEN */
 @media screen and (min-width: 800px) {
     .container{
-        height: 500px;
+        height: auto;
         width: 300px;
         grid-template-columns: 1fr 1fr 1fr;
         margin-top: 4rem;
@@ -108,7 +107,11 @@
         border-top-right-radius: 2%;
         border-bottom-left-radius: 0%;
     }
+    .car-info {
+        margin-bottom: 3rem ;
+    }
     .learn-more {
-        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-top: .5rem;
     }
 }
