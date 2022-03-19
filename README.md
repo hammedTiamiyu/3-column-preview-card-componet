@@ -15,5 +15,5 @@ This challenge helps me to dig more into the knowledge of CSS grid
 
 ## Author
 
--Website - [HAMMED TIAMIYU](https://hammedtiamiyu-portfolio-v1.netlify.app/)
+-Website - [HAMMED TIAMIYU](https://hammedtiamiyu.github.io/3-column-preview-card-componet/)
 Frontend Mentor - [@hammedTiamiyu](https://www.frontendmentor.io/profile/hammedTiamiyu)
